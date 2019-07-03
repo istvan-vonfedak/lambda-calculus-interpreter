@@ -18,7 +18,7 @@ int main(int argc, char * argv[])
     std::vector<std::string> tokens;
 
     // perform the lexical analysis
-    lexicalAnalizer(in, tokens);
+    lexicalAnalyser(in, tokens);
 
     // print the output
     if(printDebug)

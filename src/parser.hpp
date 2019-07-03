@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "lexicalAnalizer.hpp"
+#include "lexicalAnalyser.hpp"
 #include "Lambda.hpp"
 #include "Variable.hpp"
 #include "Abstraction.hpp"

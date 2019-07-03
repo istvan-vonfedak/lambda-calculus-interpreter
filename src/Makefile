@@ -1,6 +1,6 @@
 CC = g++
 CDFLAGS =
-SRC = main.cpp lexicalAnalizer.cpp parser.cpp betaReducer.cpp
+SRC = main.cpp lexicalAnalyser.cpp parser.cpp betaReducer.cpp
 OBJ = $(SRC:%.cpp=%.o)
 EXE = lambdaReducer
 

@@ -1,4 +1,4 @@
-#include "lexicalAnalizer.hpp"
+#include "lexicalAnalyser.hpp"
 
 bool isVarChar(const char & c)
 { if(c >= 'a' && c <= 'z')
@@ -42,7 +42,7 @@ void periodAssert(const std::vector<std::string> & tokens, const int & spaces)
     std::cout<<"Error second token before perion is not #\n";
     exit(-1); } }
 
-void lexicalAnalizer(const std::string & str, std::vector<std::string> & tokens)
+void lexicalAnalyser(const std::string & str, std::vector<std::string> & tokens)
 { // token used to store temp vars
   std::string token;
   // keeps track of parenthesis
