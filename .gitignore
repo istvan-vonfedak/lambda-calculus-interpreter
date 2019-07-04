@@ -27,6 +27,7 @@
 *.lib
 
 # Executables
+lambdaReducer
 *.exe
 *.out
 *.app
